@@ -1,0 +1,109 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-container {
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  border: 1px solid #ddd;
+}
+
+/* HEADER SECTION */
+.header {
+  background-color: #1F2937;
+  /* border: 1px solid #ddd; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-links .links,
+.hero .secondary-hero {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.logo-links,
+.hero {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  /* border: 1px solid #ddd; */
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #ddd;
+}
+
+/* CONTAINER FOR HERO-TEXT, SECONDARY-HERO AND SIGNUP */
+.hero-signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+}
+ 
+.hero-text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.secondary-hero {
+  /* flex-shrink: 0; */
+}
+
+.placeholder {
+  color: #F9FAF8;
+  border: 1px solid #ddd;
+}
+
+/* CONTENT SECTION */
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
