@@ -100,10 +100,11 @@ body {
   width: 560px;
 }
 
-button {
+.signup {
   cursor: pointer;
   padding: 10px 22px;
   border-radius: 8px;
+  border: none;
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight: 600;
@@ -114,15 +115,16 @@ button {
 .content {
   display: flex;
   flex-direction: column;
-  padding: 38px 10px 48px 10px;
 }
 
+/*  ////////// INFORMATION SUB-SECTION ////////// */
 .information {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 48px;
+  padding: 38px 10px 48px 10px;
 }
 
 .random-information-title {
@@ -149,6 +151,26 @@ button {
   /* border: 4px solid #3882F6; */
   /* border-radius: 5px; */
 }
+
+/*  ////////// QUOTE SUB-SECTION ////////// */
+
+.quote {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  padding: 100px 200px 100px 200px;
+}
+
+.quote-itself {
+  text-align: justify;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+/*  ////////// CALL-TO-ACTION SUB-SECTION ////////// */
+
+
 
 
 
