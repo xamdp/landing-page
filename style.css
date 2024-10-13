@@ -13,39 +13,32 @@ body {
 .big-container {
   width: 100%;
   margin: 0;
-  padding: 16px 48px 48px 48px; /* reduced the left, right and bottom padding to match a 1280x720 desktop size */
+  padding: 16px 48px 48px 48px;
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 100px;
-  box-sizing: border-box;
 }
 
 /*  ////////// HEADER SECTION ////////// */
 .header {
   background-color: #1F2937;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+  justify-content: space-evenly;
 }
 
-.logo-links .links,
-.hero .secondary-hero {
+.links,
+.secondary-hero {
   font-size: 18px;
   color: #E5E7EB;
-}
-
-.logo-links,
-.hero {
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .logo-links {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  width: 900px;
 }
 
 .logo {
@@ -77,15 +70,16 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  width: 900px;
 }
 
-/* CONTAINER FOR HERO-TEXT, SECONDARY-HERO AND SIGNUP */
-.hero-signup-container {
+/* CONTAINER FOR HERO-TEXT, SECONDARY-HERO AND SUBSCRIBE */
+.hero-sub-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* border: 1px solid #ddd; */
-  gap: 8px;
+  max-width: 900px;
+  gap: 12px;
 }
  
 .hero-text {
@@ -95,12 +89,12 @@ body {
 }
 
 .placeholder {
-  color: #F9FAF8;
-  height: auto;
-  width: 560px;
+  height: 217px;
+  width: 600px;
+  border-radius: 5px;
 }
 
-.signup {
+.hero-subscribe {
   cursor: pointer;
   padding: 10px 22px;
   border-radius: 8px;
@@ -123,11 +117,12 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 48px;
+  gap: 28px;
   padding: 38px 10px 48px 10px;
 }
 
-.random-information-title {
+/* I'll probably add a short description under this*/
+.about-title {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
@@ -138,6 +133,13 @@ body {
   flex-direction: row;
   gap: 33px;
   justify-content: center;
+}
+
+.description {
+  text-align: center;
+  padding-left: 48px;
+  padding-right: 48px;
+  max-width: 600px;
 }
 
 .info {
@@ -171,19 +173,20 @@ body {
 .call-to-action {
   display: flex;
   justify-content: center;
-  padding-top: 60px;; 
+  align-items: center;
+  padding-top: 60px; 
   padding-bottom: 60px;; 
 }
 
 .call-to-action-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #3882F6;
   border-radius: 8px;
   padding: 22px 15px 22px 33px;
-  gap: 130px;
-  width: 800px;
+  width: 900px;
+  gap: 100px;
 }
 
 .call-text-container {
