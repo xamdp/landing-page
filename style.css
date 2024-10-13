@@ -13,7 +13,7 @@ body {
 .big-container {
   width: 100%;
   margin: 0;
-  padding: 10px 300px 210px 300px;
+  padding: 10px 48px 48px 48px; /* reduced the left, right and bottom padding to match a 1280x720 desktop size */
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
@@ -93,7 +93,7 @@ body {
 .placeholder {
   color: #F9FAF8;
   height: auto;
-  width: 740px;
+  width: 560px;
 }
 
 button {
