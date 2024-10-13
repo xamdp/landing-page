@@ -13,11 +13,11 @@ body {
 .big-container {
   width: 100%;
   margin: 0;
-  padding: 10px 48px 48px 48px; /* reduced the left, right and bottom padding to match a 1280x720 desktop size */
+  padding: 16px 48px 48px 48px; /* reduced the left, right and bottom padding to match a 1280x720 desktop size */
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
-  gap: 170px;
+  gap: 100px;
   box-sizing: border-box;
 }
 
@@ -45,13 +45,17 @@ body {
 .logo-links {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
-.header .logo {
-  font-size: 24px;
-  color: #F9FAF8;
-  font-weight: 900;
+.logo {
+  /* font-size: 24px; */
+  /* color: #F9FAF8; */
+  /* font-weight: 900; */
+  width: auto;
+  height: 50px;
+  border-radius: 10px 10px;
+  box-shadow: 7px 7px;
 }
 
 .links {
@@ -71,8 +75,8 @@ body {
 /*  ////////// HERO SECTION ////////// */
 .hero {
   display: flex;
-  align-items: stretch;
-  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 /* CONTAINER FOR HERO-TEXT, SECONDARY-HERO AND SIGNUP */
