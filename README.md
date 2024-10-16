@@ -19,3 +19,20 @@ I've decided to make this a personalized project.
 Header will contain my logo and links. As for the links it will be (About me, Blog, and Projects)
 
 The project section can be inserted between about and quote.
+
+---
+
+As for the images I have used, they belong to the rightful owners which I think the distributions itself.
+
+
+#### Resources:
+
+- https://archlinux.org/
+- https://fedoraproject.org/
+- https://ubuntu.com/
+- https://www.debian.org/
+
+#### Disclaimer
+
+If you see any offending words or incorrect information or anything that you think I may have violated. 
+Feel free to correct me by opening an issue or submit a pull request to help improve this project. Your feedback is welcome and appreciated!
