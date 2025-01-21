@@ -41,6 +41,10 @@ body {
   width: 900px;
 }
 
+.logo-links a {
+  text-decoration: none;
+}
+
 .logo {
   font-size: 24px;
   color: #F9FAF8;
