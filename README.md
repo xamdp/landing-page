@@ -3,8 +3,8 @@ Basically there are (4) four main parts the landing page has.
 
 - Header and Hero
 - Content
-    - Information
-    - Quote
+    - About 
+    - Projects
     - Call to action or (subscribe)
 - Footer
 
@@ -16,7 +16,7 @@ to start. The suggestion is: **take it one section at a time**.
 
 I've decided to make this a personalized project.
 
-Header will contain my logo and links. As for the links it will be (About me, Blog, and Projects)
+Header will contain my logo and links. As for the links it will be (About me, Blog, Project and link to my GitHub profile)
 
 The project section can be inserted between about and quote.
 
@@ -35,4 +35,4 @@ As for the images I have used, they belong to the rightful owners which I think 
 #### Disclaimer
 
 If you see any offending words or incorrect information or anything that you think I may have violated. 
-Feel free to correct me by opening an issue or submit a pull request to help improve this project. Your feedback is welcome and appreciated!
+Feel free to correct me by opening an issue or submit a pull request. Your feedback is welcome and appreciated!
