@@ -1,127 +1,191 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Landing Page</title>
-		<link rel="stylesheet" href="style.css">
-		<link rel="icon" href="images/ming.jpg" type="image/x-icon"/>
-	</head>
-	<body>
-		<!-- CONTAINER FOR HEADER AND HERO  -->
-		<div class="big-container">
-			<!-- ////////// HEADER ////////// -->
-			<div class="header">
-				<div class="logo-links">
-					<!-- making logo a link to my homepage. -->
-					<a href="#">
-						<!-- <img class="logo" src="images/ming.jpg" alt="cato"> -->
-						<div class="logo">ジェグス</div>
-					</a>
-					<ul class="links">
-						<li><a href="#about-me">About</a></li>
-						<li><a href="https://xamdp.mataroa.blog" rel="noreferrer" target="_blank">Blog</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="https://github.com/xamdp" rel="noreferrer" target="_blank">GitHub</a></li>
-					</ul>
-				</div>
-			</div>
-			<!-- HERO-TEXT UNDER HEADER -->
-			<div class="hero">
-				<div class="hero-sub-container">
-					<div class="hero-text">Are you also a Linux hobbyist?</div>
-					<div class="secondary-hero">
-						This ain't much yet, but I am trying to personalize this project and build on top of it as I progress. 
-					</div>
-					<button class="hero-subscribe">Subscribe!</button>
-				</div>
-				<iframe class="placeholder" src="https://www.youtube.com/embed/EhzKoEb4Ozk" title="lspconfig | nvim | phpactor lsp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-				</iframe>
-			</div>
-		</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xamdp's portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/ming.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- CONTAINER FOR HEADER AND HERO  -->
+    <div class="big-container">
+      <!-- ////////// HEADER ////////// -->
+      <div class="header">
+        <div class="logo-links">
+          <!-- making logo a link to my homepage. -->
+          <a href="#">
+            <!-- <img class="logo" src="images/ming.jpg" alt="cato"> -->
+            <div class="logo">xamdp</div>
+          </a>
+          <ul class="links">
+            <li><a href="#about-me">About</a></li>
+            <li>
+              <a
+                href="https://xamdp.mataroa.blog"
+                rel="noreferrer"
+                target="_blank"
+                >Blog</a
+              >
+            </li>
+            <li><a href="#projects">Projects</a></li>
+            <li>
+              <a
+                href="https://github.com/xamdp"
+                rel="noreferrer"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- HERO-TEXT UNDER HEADER -->
+      <div class="hero">
+        <div class="hero-sub-container">
+          <div class="hero-text">Are you also a Linux hobbyist?</div>
+          <div class="secondary-hero">
+            This ain't much yet, but I am trying to personalize this project and
+            build on top of it as I progress.
+          </div>
+          <button class="hero-subscribe">Subscribe!</button>
+        </div>
+        <iframe
+          class="placeholder"
+          src="https://www.youtube.com/embed/EhzKoEb4Ozk"
+          title="lspconfig | nvim | phpactor lsp"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+    </div>
 
-		<!-- ////////// CONTENT ////////// -->
-		<div class="content">
-			<!-- ////////// INFORMATION ////////// -->
-			<div class="information">
-				<div id="about-me" class="about-title">
-					About me
-				</div>
-				<div class="description">
-					Hi, my name is xamdp, I'm a network systems student and recently got into web development.
-					These are operating systems I've used since pre-pandemic. Currently, I am using Fedora as my daily driver.
-				</div>
-				<!-- RANDOM IMAGE CONTAINER	 -->
-				<div class="info-container">
-					<div class="info">
-						<img src="./images/content/arch.svg" alt="Arch Linux" title="Arch Linux">
-						<div class="text">I am no pro, but Arch taught me a lot.</div>
-					</div>
+    <!-- ////////// CONTENT ////////// -->
+    <div class="content">
+      <!-- ////////// INFORMATION ////////// -->
+      <div class="information">
+        <div id="about-me" class="about-title">About me</div>
+        <div class="description">
+          Hi, my name is xamdp, I'm a network systems student and recently got
+          into web development. These are operating systems I've used since
+          pre-pandemic. Currently, I am using Fedora as my daily driver.
+        </div>
+        <!-- RANDOM IMAGE CONTAINER	 -->
+        <div class="info-container">
+          <div class="info">
+            <img
+              src="./images/content/arch.svg"
+              alt="Arch Linux"
+              title="Arch Linux"
+            />
+            <div class="text">I am no pro, but Arch taught me a lot.</div>
+          </div>
 
-					<div class="info">
-						<img src="./images/content/debian.svg" alt="Debian Linux" title="Debian">
-						<div class="text">We used Debian back in my class as primary os for setting up linux servers.</div>
-					</div>
+          <div class="info">
+            <img
+              src="./images/content/debian.svg"
+              alt="Debian Linux"
+              title="Debian"
+            />
+            <div class="text">
+              We used Debian back in my class as primary os for setting up linux
+              servers.
+            </div>
+          </div>
 
-					<div class="info">
-						<img src="./images/content/fedora.svg" alt="Fedora" title="Fedora">
-						<div class="text">When you want something that just works :)</div>
-					</div>
+          <div class="info">
+            <img
+              src="./images/content/fedora.svg"
+              alt="Fedora"
+              title="Fedora"
+            />
+            <div class="text">When you want something that just works :)</div>
+          </div>
 
-					<div class="info">
-						<img src="./images/content/ubuntu.png" alt="Ubuntu Linux" title="Ubuntu">
-						<div class="text">Ubuntu, very user friendly, perfect for starting out learning Linux.</div>
-					</div>
-				</div>
-			</div>
+          <div class="info">
+            <img
+              src="./images/content/ubuntu.png"
+              alt="Ubuntu Linux"
+              title="Ubuntu"
+            />
+            <div class="text">
+              Ubuntu, very user friendly, perfect for starting out learning
+              Linux.
+            </div>
+          </div>
+        </div>
+      </div>
 
-			<!-- ////////// PROJECT SECTION ////////// -->
-			<div class="project-section">
-				<div id="projects" class="project-title">Projects</div>
+      <!-- ////////// PROJECT SECTION ////////// -->
+      <div class="project-section">
+        <div id="projects" class="project-title">Projects</div>
 
+        <!-- ////////// PROJECTS CONTAINER  ////////// -->
+        <div class="project-container">
+          <div class="projects">
+            <a
+              href="https://xamdp.github.io/odin-recipes/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="./images/content/projects/odin-recipes.png"
+                alt="Odin Recipes"
+              />
+            </a>
+            <div class="text">
+              This is the first project from The Odin Project.
+            </div>
+          </div>
 
-				<!-- ////////// PROJECTS CONTAINER  ////////// -->
-				<div class="project-container">
-					<div class="projects">
-						<a href="https://xamdp.github.io/odin-recipes/" rel="noreferrer" target="_blank">
-							<img src="./images/content/projects/odin-recipes.png" alt="Odin Recipes">
-						</a>
-						<div class="text">This is the first project from The Odin Project.</div>
-					</div>
+          <div class="projects">
+            <a
+              href="https://xamdp.github.io/landing-page/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="./images/content/projects/landing-page.png"
+                alt="Landing Page"
+              />
+            </a>
+            <div class="text">
+              This is the second project from The Odin Project.
+            </div>
+          </div>
+        </div>
+      </div>
 
-					<div class="projects">
-						<a href="https://xamdp.github.io/landing-page/" rel="noreferrer" target="_blank">
-							<img src="./images/content/projects/landing-page.png" alt="Landing Page">
-						</a>
-						<div class="text">This is the second project from The Odin Project.</div>
-					</div>
-				</div>
-			</div>
+      <!-- ////////// QUOTE SECTION ////////// -->
+      <div class="quote">
+        <blockquote class="quote-itself" cite="Jim Ryun">
+          <em>
+            Motivation is what gets you started. Habit is what keeps you
+            going.</em
+          >
+          <!-- I just happen to google on how to add the author idk if this is right... -->
+          <br />
+          <span style="float: right; font-weight: 700">- Jim Ryun</span>
+        </blockquote>
+      </div>
 
-			<!-- ////////// QUOTE SECTION ////////// -->
-			<div class="quote">
-				<blockquote class="quote-itself" cite="Jim Ryun">
-					<em> Motivation is what gets you started. Habit is what keeps you going.</em>
-					<!-- I just happen to google on how to add the author idk if this is right... -->
-					<br>
-					<span style="float: right; font-weight: 700;">- Jim Ryun</span>
-				</blockquote>
-			</div>
+      <!-- ////////// CALL-TO-ACTION SECTION ////////// -->
+      <div class="call-to-action">
+        <!-- ////////// INNER CONTAINER FOR CALL-TO-ACTION ////////// -->
+        <div class="call-to-action-container">
+          <div class="call-text-container">
+            <div class="its-time">Want to know me more?</div>
+            <p>Subscribe now and get notified by the latest news!</p>
+          </div>
+          <button class="signup-call-action">Subscribe!</button>
+        </div>
+      </div>
+    </div>
 
-			<!-- ////////// CALL-TO-ACTION SECTION ////////// -->
-			<div class="call-to-action">
-				<!-- ////////// INNER CONTAINER FOR CALL-TO-ACTION ////////// -->
-				<div class="call-to-action-container">
-					<div class="call-text-container">
-						<div class="its-time">Want to know me more?</div>
-						<p>Subscribe now and get notified by the latest news!</p>
-					</div>
-					<button class="signup-call-action">Subscribe!</button>
-				</div>
-			</div>
-		</div>
-
-			<!-- ////////// FOOTER ////////// -->
-		<div class="footer">Copyright © xamdp 2024</div>
-	</body>
+    <!-- ////////// FOOTER ////////// -->
+    <div class="footer">Copyright © xamdp 2024</div>
+  </body>
 </html>
